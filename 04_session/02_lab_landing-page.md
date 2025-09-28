@@ -15,7 +15,7 @@
 
 <div align="center">  
 
-![wireframe-moviltech](/05_session/resources/image/wireframe-alta-fidelidad-landing.png)  
+![wireframe-moviltech](/04_session/resources/image/wireframe-alta-fidelidad-landing.png)  
 
 </div>
 
