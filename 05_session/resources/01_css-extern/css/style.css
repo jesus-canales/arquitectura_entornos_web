@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #27548A;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #3A59D1;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #CB0404;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* El punto (.) indica que es una clase */
+.cta-button {
+    background-color: #CB0404;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+/* El numeral (#) indica que es un ID */
+#hero-section {
+    background-color: #EAD196;
+    padding: 60px 30px;
+}

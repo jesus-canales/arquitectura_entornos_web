@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    background-color: #E4EFE7;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 20px 20px 0 0;
+}
+
+.car-bmw img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+
+.text,
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+    margin: 0px 25px 15px 25px;
+}
+
+#frase {
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+}
+
+.price-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: blue;
+}
+
+.btn {
+    align-content: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding: 5px 0px 20px 0px;
+}
+
+.action {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    padding: 10px;
+    display: inline-flex;
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
