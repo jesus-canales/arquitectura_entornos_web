@@ -24,7 +24,7 @@ En CSS, cada elemento HTML (un párrafo, una imagen, un título, un div, etc.) e
    
 <div align="center">  
 
-![model-box](/05_session/resources/image/css-box-model.png)  
+![model-box](../06_session/resources/image/css-box-model.png)  
 
 </div>
 
@@ -34,7 +34,7 @@ En CSS, cada elemento HTML (un párrafo, una imagen, un título, un div, etc.) e
 
 <div align="center">  
 
-![model-box-demo1](/05_session/resources/image/structure-project-bm.png)  
+![model-box-demo1](../06_session/resources/image/structure-project-bm.png)  
 
 </div>
 
@@ -66,7 +66,7 @@ En CSS, cada elemento HTML (un párrafo, una imagen, un título, un div, etc.) e
 
 <div align="center">  
 
-![model-box-style](/05_session/resources/image/structure-project-bm-style.png)  
+![model-box-style](/06_session/resources/image/structure-project-bm-style.png)  
 
 </div>
 
@@ -87,7 +87,7 @@ En CSS, cada elemento HTML (un párrafo, una imagen, un título, un div, etc.) e
 
 <div align="center">  
 
-![model-box-style-result](/05_session/resources/image/result-box-model.png)  
+![model-box-style-result](/06_session/resources/image/result-box-model.png)  
 
 </div>
 
@@ -110,6 +110,6 @@ Utilizar la propiedad box-sizing: border-box; es la práctica más moderna y muy
 
 <div align="center">  
 
-![box-sizing](/05_session/resources/image/box-sizing.png)  
+![box-sizing](/06_session/resources/image/box-sizing.png)  
 
 </div>
