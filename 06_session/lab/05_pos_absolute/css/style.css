@@ -23,9 +23,9 @@
 .insignia-nuevo {
     position: absolute;
     /* ¡Activamos el modo absoluto! */
-    top: 10px;
+    top: 25px;
     /* A 10px del borde superior del padre (.tarjeta-producto-con-insignia) */
-    right: 10px;
+    right: 15px;
     /* A 10px del borde derecho del padre */
     background-color: #CB0404;
     /* Color de la insignia */
