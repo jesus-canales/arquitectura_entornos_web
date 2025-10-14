@@ -1,0 +1,68 @@
+body {
+    background-image: url(../image/fondo-3.jpg);
+    background-size: cover;
+}
+
+.header {
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 5%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+img{
+    border-radius: 50px;
+}
+
+.header .menu-horizontal {
+    list-style: none;
+}
+
+.header .menu-horizontal li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .menu-horizontal a {
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.header .menu-horizontal li:hover{
+    transform: scale(1.1);
+}
+
+.header .menu-horizontal li a:hover {
+    color: yellow;
+}
+
+.header .boton {
+    font-weight: 700;
+    color: white;
+    padding: 9px 25px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.header .boton:hover{
+    background-color: blue;
+    color: yellow;
+    transform: scale(1.1);
+}
