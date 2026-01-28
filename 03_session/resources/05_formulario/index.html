@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1 style="color: blue;">Trabajando con Formularios</h1>
+    <hr size="10" color="red">
+    <form>
+        <h1>Registro de datos</h1>
+        <div>
+            <input type="text" placeholder="Ingresa tus nombres" style="padding: 5px; width: 350px;">
+            <br> <br>
+            <input type="text" placeholder="Ingresa tus apellidos" style="padding: 5px; width: 350px;">
+            <br> <br>
+            <select style="padding: 5px; width: 365px;">
+                <option value="opcion0">Selecciona lugar de procedencia</option>
+                <option value="opcion1">Lima</option>
+                <option value="opcion2">Piura</option>
+                <option value="opcion3">Trujillo</option>
+                <option value="opcion4">Arequipa</option>
+            </select>
+            <br> <br>
+            <label>Tu estado civil es: </label>            
+            <input name="estado_civil" type="radio" value="soltero"> Soltero 
+            <input name="estado_civil" type="radio" value="casado"> Casado
+            <input name="estado_civil" type="radio" value="viudo"> Viudo
+            <br><br>
+            <label>¿Qué redes sociales utilizar?</label>
+            <input type="checkbox" name="redes_sociales" value="facebook"> Facebook
+            <input type="checkbox" name="redes_sociales" value="tiktok"> TikTok
+            <input type="checkbox" name="redes_sociales" value="instagram"> Instagram
+            <input type="checkbox" name="redes_sociales" value="linkedin"> LinkedIn 
+            <br><br>
+            <label>¿Por qué estudias desarrollo web?</label>
+            <br>
+            <textarea name="consulta" rows="10" cols="45"></textarea>
+            <br><br>
+            <input type="button" value="Enviar datos">
+        </div>
+    </form>
+
+</body>
+</html>
