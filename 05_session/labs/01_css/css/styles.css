@@ -1,9 +1,23 @@
 
 body{
-    background-color: #87e1e4;
+    background-color: #f8f0c5;
 }
 
 h1 {
     color: #834104;
     font-size: 2.5em;
+}
+
+h2 {
+    color: #3A59D1;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #CB0404;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
 }
