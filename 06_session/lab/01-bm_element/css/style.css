@@ -1,0 +1,120 @@
+.caja-basica {
+    border: 2px solid #00bcd4;
+    background-color: #FFE8CD;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+}
+
+.caja-estatica {
+    position: static;
+    width: 150px;
+    height: 50px;
+    background-color: #a7d9f7;
+    border: 2px solid #3498db;
+    margin: 30px;
+    /* Solo para separarlas un poco */
+    text-align: center;
+    line-height: 50px;
+    /* Para centrar el texto verticalmente */
+    top: 200px; left: 200px; 
+    /* ¡Estas propiedades NO HARÁN NADA aquí! */
+}
+
+.contenedor-flujo {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.caja-flujo {
+    width: 150px;
+    height: 50px;
+    background-color: #d4edda;
+    border: 1px solid #28a745;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    left: 40px;
+}
+
+.caja-relativa {
+    position: relative;
+    /* ¡Activamos el modo relativo! */
+    top: 40px;
+    /* Me muevo 20px hacia abajo de mi posición original */
+    left: 60px;
+    /* Me muevo 300px a la derecha de mi posición original */
+    background-color: #fff3cd;
+    border: 1px solid #ffc107;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    /* El margen sigue afectando su posición original */
+    text-align: center;
+    line-height: 50px;
+}
+
+.tarjeta-producto-con-insignia-uno {
+    position: relative;
+    /* ¡CLAVE! Hacemos que el padre sea posicionado */
+    width: 300px;
+    background-color: #90e9a6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #758694;
+    margin: 50px auto;
+    /* Centrar la tarjeta para el ejemplo */
+    overflow: hidden;
+    /* Para que la insignia no se salga si es muy grande */
+    text-align: center;
+    padding-bottom: 20px;
+    /* Espacio para el contenido */
+}
+
+.tarjeta-producto-con-insignia-dos {
+    position: relative;
+    /* ¡CLAVE! Hacemos que el padre sea posicionado */
+    width: 300px;
+    background-color: #eee068;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #758694;
+    margin: 50px auto;
+    /* Centrar la tarjeta para el ejemplo */
+    overflow: hidden;
+    /* Para que la insignia no se salga si es muy grande */
+    text-align: center;
+    padding-bottom: 20px;
+    /* Espacio para el contenido */
+}
+
+.tarjeta-producto-con-insignia img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.insignia-nuevo {
+    position: absolute;
+    /* ¡Activamos el modo absoluto! */
+    top: 10px;
+    /* A 10px del borde superior del padre (.tarjeta-producto-con-insignia) */
+    right: 10px;
+    /* A 10px del borde derecho del padre */
+    background-color: #ff6f61;
+    /* Color de la insignia */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    z-index: 10;
+    /* Asegura que esté por encima de la imagen */
+}
+
+.tarjeta-producto-con-insignia h3,
+.tarjeta-producto-con-insignia p {
+    padding: 0 15px;
+    /* Relleno para el texto dentro de la tarjeta */
+    margin-top: 15px;
+}
