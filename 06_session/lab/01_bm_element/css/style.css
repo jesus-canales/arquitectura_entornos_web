@@ -56,11 +56,27 @@
     line-height: 50px;
 }
 
-.tarjeta-producto-con-insignia {
+.tarjeta-producto-con-insignia-uno {
     position: relative;
     /* ¡CLAVE! Hacemos que el padre sea posicionado */
     width: 300px;
-    background-color: #B1F0F7;
+    background-color: #90e9a6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #758694;
+    margin: 50px auto;
+    /* Centrar la tarjeta para el ejemplo */
+    overflow: hidden;
+    /* Para que la insignia no se salga si es muy grande */
+    text-align: center;
+    padding-bottom: 20px;
+    /* Espacio para el contenido */
+}
+
+.tarjeta-producto-con-insignia-dos {
+    position: relative;
+    /* ¡CLAVE! Hacemos que el padre sea posicionado */
+    width: 300px;
+    background-color: #eee068;
     border-radius: 8px;
     box-shadow: 0 4px 10px #758694;
     margin: 50px auto;
