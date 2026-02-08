@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    /* Reiniciar el margen del body */
+    font-family: Arial, sans-serif;
+}
+
+.barra-navegacion-fija {
+    position: fixed;
+    /* ¡Se mantiene fijo en la pantalla! */
+    top: 0;
+    /* Pegado al borde superior de la ventana */
+    left: 0;
+    /* Pegado al borde izquierdo de la ventana */
+    width: 90%;
+    /* Ocupa todo el ancho de la ventana */
+    background-color: #000957;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px #131010;
+    z-index: 1000;
+    /* Asegura que esté por encima de todo lo demás */
+}
+
+.barra-navegacion-fija .logo {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.barra-navegacion-fija nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.barra-navegacion-fija nav a:hover {
+    background-color: #174a7e;
+    border-radius: 4px;
+}
+
+/* MUY IMPORTANTE: Compensar el espacio que la barra fija "quita" del flujo */
+.contenido-pagina {
+    padding-top: 70px;
+    /* Ajusta este valor al alto de tu barra de navegación fija */
+    padding-left: 30px;
+    padding-right: 30px;
+}
