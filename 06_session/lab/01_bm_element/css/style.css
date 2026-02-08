@@ -1,0 +1,8 @@
+.caja-basica {
+    border: 2px solid #00bcd4;
+    background-color: #FFE8CD;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+}
