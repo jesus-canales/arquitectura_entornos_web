@@ -6,3 +6,21 @@ body {
     background: #f4f4f4;
     color: #333;
 }
+
+/* Header con imagen de fondo */
+.hero {
+    background-image: url('/07_session/lab/landing-moviltech/images/banner-moviltech.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 12rem 3rem;
+    position: relative;
+}
+
+/* Panel de sombra azul en el banner */
+.hero .overlay {
+    background-color: #0e2148a2;
+    padding: 6rem;
+    border-radius: 10px;
+}
