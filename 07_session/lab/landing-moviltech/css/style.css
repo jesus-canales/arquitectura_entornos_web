@@ -24,3 +24,31 @@ body {
     padding: 6rem;
     border-radius: 10px;
 }
+
+/* Navegación */
+nav {
+    background-color: #010e3a;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #485460;
+}
