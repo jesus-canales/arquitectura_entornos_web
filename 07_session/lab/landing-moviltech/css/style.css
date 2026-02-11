@@ -101,6 +101,30 @@ section {
     margin: 0 0.5rem 1rem;
 }
 
+aside {
+    background: #dff9fb;
+    padding: 1rem;
+    border-left: 5px solid #0a3d62;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+#financiamiento {
+    background-color: #eef6ff;
+    border-left: 5px solid #007bff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#financiamiento h2 {
+    margin-top: 0;
+    color: #0a3d62;
+}
+
+#financiamiento p {
+    font-size: 1.05rem;
+}
 
 
 
