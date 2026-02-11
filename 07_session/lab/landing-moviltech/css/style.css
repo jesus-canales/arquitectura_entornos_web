@@ -126,7 +126,12 @@ aside {
     font-size: 1.05rem;
 }
 
-
+footer {
+    background-color: #010e3a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
 
 
 
