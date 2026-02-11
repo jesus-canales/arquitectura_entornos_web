@@ -52,3 +52,59 @@ nav a {
 nav a:hover {
     background-color: #485460;
 }
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Galería de Vehículos en Cards */
+.galeria-autos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+/* Estilo de cada card */
+.galeria-autos .card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+/* Efecto cuando se pasa el mouse sobre el card*/
+.galeria-autos .card:hover {
+    transform: translateY(-5px);
+}
+
+/* Adecuación de la imagen al card */
+.galeria-autos .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Margen para el nombre del carro */
+.galeria-autos .card h3 {
+    margin: 0.5rem;
+}
+
+/* Margen para el párrafo descriptivo */
+.galeria-autos .card p {
+    margin: 0 0.5rem 1rem;
+}
+
+
+
+
+
+
+
+
