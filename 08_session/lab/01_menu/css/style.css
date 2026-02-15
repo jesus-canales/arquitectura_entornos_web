@@ -3,3 +3,24 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #0B192C;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
