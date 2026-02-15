@@ -24,3 +24,7 @@ nav {
     color: white;
     text-decoration: none;
 }
+
+.menu-horizontal > li:hover {
+    background-color: darkorange;
+}
