@@ -50,7 +50,7 @@ Imagina el video como una pantalla de televisión en tu sitio web. Puedes mostra
 
 - < source >: Permite especificar múltiples formatos de video (.mp4, .webm, .ogg) para mayor compatibilidad con el navegador.
 
-![Video-Turismo](/07_session/resources/image/video-web.png)  
+![Video-Turismo](/10_session/resources/image/video-web.png)  
 
 
 ## Incrustar recursos externos en la web < iframe >
@@ -71,9 +71,9 @@ Imagina un < iframe > como una ventana que abres en tu página para mostrar el c
 
 ## Incrustar video de YouTube  
 
-![Video-YouTube](/07_session/resources/image/youtube-web.png)  
+![Video-YouTube](/10_session/resources/image/youtube-web.png)  
 
 
 ## Incrustar mapa interactivo de Google Maps
 
-![Mapa-Google-Maps](/07_session/resources/image/mapa-web.png)  
+![Mapa-Google-Maps](/10_session/resources/image/mapa-web.png)  
