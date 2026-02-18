@@ -24,7 +24,7 @@ Vamos a agregar el audio a manera de un reproductor de radio que pones en tu sit
 
 - < source >: Permite especificar múltiples formatos de audio (.mp3, .ogg, .wav) para mayor compatibilidad con diferentes navegadores. 
 
-![Audio-Relax](/07_session/resources/image/audio-web.png)  
+![Audio-Relax](/10_session/resources/image/audio-web.png)  
 
 ## Video en la Web < video >
 
