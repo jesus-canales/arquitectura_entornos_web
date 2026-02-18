@@ -20,7 +20,7 @@ El menú más fundamental es una lista de enlaces que se muestra de forma horizo
 
 <div align="center">  
 
-![menu-horizontal](../06_session/resource/image/menu-one.png)  
+![menu-horizontal](../08_session/resource/image/menu-one.png)  
 
 </div>
 
@@ -32,7 +32,7 @@ Los menús desplegables son útiles cuando tienes muchas opciones y quieres orga
 
 <div align="center">  
 
-![submenu-horizontal](../06_session/resource/image/submenu-css.png)  
+![submenu-horizontal](../08_session/resource/image/submenu-css.png)  
 
 </div>
 
@@ -44,18 +44,18 @@ En la web moderna, tus menús deben verse y funcionar bien en cualquier disposit
 
 <div align="center">  
 
-![submenu-hamburguesa-01](../06_session/resource/image/menu-hamburguesa-01.png)  
+![submenu-hamburguesa-01](../08_session/resource/image/menu-hamburguesa-01.png)  
 
 </div>
 
 <div align="center">  
 
-![submenu-hamburguesa-02](../06_session/resource/image/menu-hamburguesa-02.png)  
+![submenu-hamburguesa-02](../08_session/resource/image/menu-hamburguesa-02.png)  
 
 </div>
 
 <div align="center">  
 
-![submenu-hamburguesa-03](../06_session/resource/image/menu-hamburguesa-03.png)  
+![submenu-hamburguesa-03](../08_session/resource/image/menu-hamburguesa-03.png)  
 
 </div>
