@@ -21,3 +21,9 @@ audio {
     max-width: 700px;
     border-radius: 10px;
 }
+
+video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
