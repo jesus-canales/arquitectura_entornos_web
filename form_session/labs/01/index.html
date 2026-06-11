@@ -10,35 +10,39 @@
         <h3>Completa o rellena los siguientes datos personales en el formulario</h3>
     </center>
     <form>
-        <p>
-            <label><b>Ingrese nombres:</b></label><br>
-            <input type="text" name="nombres" placeholder="Ejemplo: Oscar Ramíro" required size="60">
-        </p>
-        <p>
-            <label><b>Ingrese Apellidos:</b></label><br>
-            <input type="text" name="apellidos" placeholder="Ejemplo: Reyes Acuña" required size="60">
-        </p>
-        <!-- Agregar el ingreso de correo electrónico y número de celular -->
-        <p>
-            <label><b>Ingrese celular:</b></label><br>
-            <input type="text" name="tel" placeholder="Ejemplo: Son 9 dígitos y el primero es el 9" required size="60">
-        </p>
-        <p>
-            <label><b>Ingrese correo electrónico:</b></label><br>
-            <input type="text" name="email" placeholder="Ejemplo: alexa@dominio.com" required size="60">
-        </p>
-        <!-- Permitir seleccionar el género de la persona: Masculino - Femenino-->
-        <P>
-            <label><b>Seleccione su Género:</b></label><br>
-            <input type="radio" NAME="GENERO" VALUE="MASCULINO">
-            <label>Masculino</label>
-            <input type="radio" NAME="GENERO" VALUE="FEMENINO">
-            <label>Femenino</label>
-        </p>
-        <p>
-            <label><b>Ingrese su fecha de nacimiento:</b></label><br>
-            <input type="date" name="fecha-nacimiento" required size="60">
-        </p>
+        <fieldset>
+            <legend>Información Personal</legend>
+            <p>
+                <label><b>Ingrese nombres:</b></label><br>
+                <input type="text" name="nombres" placeholder="Ejemplo: Oscar Ramíro" required size="60">
+            </p>
+            <p>
+                <label><b>Ingrese Apellidos:</b></label><br>
+                <input type="text" name="apellidos" placeholder="Ejemplo: Reyes Acuña" required size="60">
+            </p>
+            <!-- Agregar el ingreso de correo electrónico y número de celular -->
+            <p>
+                <label><b>Ingrese celular:</b></label><br>
+                <input type="text" name="tel" placeholder="Ejemplo: Son 9 dígitos y el primero es el 9" required
+                    size="60">
+            </p>
+            <p>
+                <label><b>Ingrese correo electrónico:</b></label><br>
+                <input type="text" name="email" placeholder="Ejemplo: alexa@dominio.com" required size="60">
+            </p>
+            <!-- Permitir seleccionar el género de la persona: Masculino - Femenino-->
+            <P>
+                <label><b>Seleccione su Género:</b></label><br>
+                <input type="radio" NAME="GENERO" VALUE="MASCULINO">
+                <label>Masculino</label>
+                <input type="radio" NAME="GENERO" VALUE="FEMENINO">
+                <label>Femenino</label>
+            </p>
+            <p>
+                <label><b>Ingrese su fecha de nacimiento:</b></label><br>
+                <input type="date" name="fecha-nacimiento" required size="60">
+            </p>
+        </fieldset>
     </form>
 </body>
 
